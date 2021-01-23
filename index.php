@@ -4,4 +4,6 @@ $sum = Test::add(1,1);
 
 var_dump($sum);
 
-$test = ;sdf;
+$test = $testing;
+
+echo "test";

@@ -12,11 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-<<<<<<< HEAD
-          fetch-depth: 100000
-=======
           fetch-depth: 0
->>>>>>> 08692e01f11433cebbefadbfc590662187f2c3c4
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
